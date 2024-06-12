@@ -1,0 +1,133 @@
+/* Modal */
+
+/* Modal 1 */
+div[dialog-modal-div] {
+    font-family: Arial, sans-serif;
+    background-color: #212529;
+    border-radius: 10px;
+    width: 310px;
+    padding: 15px;
+    text-align: center;
+    color: #ffffff;
+    border: 2px solid #485157;
+    text-decoration: none;
+    position: relative;
+    margin: var(--bs-modal-margin);
+    pointer-events: none;
+}
+
+div[dialog-modal-div] hr{
+    border-color: #485157;
+}
+
+div[dialog-modal-div] p {
+    font-size: 18px;
+    margin: 0 0 10px;
+    color: #DEE3E7;
+}
+
+div[dialog-modal-div] span {
+    font-size: 14px;
+    color: #D2E2DA;
+    display: block;
+    margin-bottom: 20px;
+}
+
+div[dialog-modal-dialog-actions] {
+    display: flex;
+    justify-content: space-between;
+}
+
+button[dialog-model-dialog-button] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    &:hover{
+        color: var(--ze-link-hover-color);
+    }
+}
+
+button[dialog-model-dialog-button_YesEnable] {
+    font-weight: bold;
+    background-color: transparent;
+    color: var(--ze-link-color);
+    &:focus{
+        outline: 1px solid var(--FocusPlaceholderColor);
+        outline-offset: 1px;
+    }
+}
+
+button[dialog-model-dialog-button_NoThanks] {
+    background-color: transparent;
+    color: var(--ze-link-color);
+    &:focus{
+        outline: 1px solid var(--FocusPlaceholderColor);
+        outline-offset: 1px;
+    }
+}
+
+/* Modal 2 */
+div[pricing-modal-div] {
+    margin: 0px;
+    padding: 0px;
+    /* margin-top: 15px; TEMP */
+
+    font-family: Arial, sans-serif;
+    background-color: #212529;
+    border-radius: 6px;
+    width: 293px;
+    height: 293px;
+    text-align: center;
+    color: #ffffff;
+    border: 2px solid #485157;
+    text-decoration: none;
+}
+
+div[pricing-modal-div] div[pricing-modal-options-div] {
+     margin: 0px;
+     padding: 0px;
+}
+
+div[pricing-modal-div] span[pricing-modal-price] {
+    background: #262B2E;
+    border-radius: 5px;
+    height: 50px;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;    
+    margin: 0px;
+    padding: 0px;
+}
+
+div[pricing-modal-div] b p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: normal;
+    /* margin-left: 400%; */
+    margin: 0px;
+    padding: 0px;
+}
+div[pricing-modal-div] b {
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5px !important;
+}
+
+div[pricing-modal-div] hr{
+    border-color: #485157;      
+    margin: 0px;
+    padding: 0px;
+}

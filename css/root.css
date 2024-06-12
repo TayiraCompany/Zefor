@@ -1,0 +1,65 @@
+:root{
+    --PrimaryColor: #0d6efd;
+    --trPrimaryColor:#0b5ed7;
+    --dPrimaryColor: #0b5ed7;
+    --trdPrimaryColor:#006ace85;
+    --d2PrimaryColor: #0055a5;
+    --trd2PrimaryColor:#0055a585;
+
+    --SecondaryColor: #6c757d;
+    --trSecondaryColor: #6c757d;
+    --dSecondaryColor: #555c63;
+    --trdSecondaryColor: #555c6385;
+    --d2SecondaryColor: #404549;
+    --trd2SecondaryColor: #40454985;
+
+    --InfoColor: #0dcaf0;
+    --trInfoColor: #0dcaf085;
+    --dInfoColor: #31d2f2;
+    --trdInfoColor: #1690a385;
+    --d2InfoColor: #117180;
+    --trd2InfoColor: #11718085;
+
+    --ErrorColor: #dc3545;
+    --trErrorColor: #dc354585;
+    --dErrorColor: #bb2d3b;
+    --trdErrorColor: #c52f3e85;
+    --d2ErrorColor: #ac2835;
+    --trd2ErrorColor: #ac283585;
+
+    --SuccColor: #198754;
+    --trSuccColor: #19875485;
+    --dSuccColor: #157347;
+    --trdSuccColor: #22943d85;
+    --d2SuccColor: #1d7a33;
+    --trd2SuccColor: #1d7a3385;
+
+    --WarColor: #ffc107;
+    --trWarColor: #ffc10785;
+    --dWarColor: #ffca2c;
+    --trdWarColor: #e6ae0685;
+    --d2WarColor: #c79706;
+    --trd2WarColor: #c7970685;
+
+    --LightColor: #f8f9fa;
+    --trLightColor: #f8f9fa85;
+    --dLightColor: #d3d4d5;
+    --trdLightColor: #b4b4b485;
+    --d2LightColor: #a7a7a7;
+    --trd2LightColor: #a7a7a789;
+
+    --DarkColor: #444;
+    --trDarkColor: #44444485;
+    --dDarkColor: #333;
+    --trdDarkColor: #33333385;
+    --d2DarkColor: #222;
+    --trd2DarkColor: #22222285;
+
+    /*  */
+    --FocusBorderColor: #ff5733;
+    --PlaceholderColor: #6c757d;
+    --FocusPlaceholderColor: #343a40;
+    --ze-link-color: #6ea8fe;
+    --ze-link-hover-color: #8bb9fe;
+    --ze-btn-focus-shadow-rgb: 49, 132, 253;
+}

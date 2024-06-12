@@ -1,0 +1,55 @@
+
+/* RadioButton */
+div[radio-input-div] {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: #202020;
+    justify-content: center;
+    border-radius: 5px
+  }
+  
+  div[radio-input-div] button {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    color: white;
+    display: flex;
+    position: relative;
+    gap: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  div[radio-input-div] button:not(:active):hover,
+  div[radio-input-div] button:focus {
+    background-color: #2C2C2D;
+  }
+  
+  div[radio-input-div] button:focus,
+  div[radio-input-div] button:active {
+    background-color: #2C2C2D;
+    outline: none;
+  }
+  
+  div[radio-input-div] button::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    width: 5px;
+    height: 80%;
+    background-color: #1DAA61;
+    border-radius: 5px;
+    opacity: 0;
+  }
+  
+  div[radio-input-div] button:focus::before,
+  div[radio-input-div] button:active::before {
+    opacity: 1;
+  }
+  
+  div[radio-input-div] button svg {
+    width: 15px
+  }
+

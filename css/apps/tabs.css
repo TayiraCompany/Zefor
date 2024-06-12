@@ -1,0 +1,48 @@
+
+/* tabs */
+
+button[tabs-tab-button-theme1], 
+button[tabs-tab-button-theme2], 
+button[tabs-tab-button-theme3] {
+    padding: 15px;
+    display: inline-flex;
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+button[tabs-tab-button-theme1] span, 
+button[tabs-tab-button-theme2] span, 
+button[tabs-tab-button-theme3] span {
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    bottom: 5px;
+    margin-left: 30px;
+    gap: 15px;
+}
+
+button[tabs-tab-button-theme1] img, 
+button[tabs-tab-button-theme2] img, 
+button[tabs-tab-button-theme3] img {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    bottom: 11px;
+}
+
+/* Theme specific styles */
+button[tabs-tab-button-theme1] {
+    background: #eee;
+}
+
+button[tabs-tab-button-theme2] {
+    background: #222; 
+    color: #fff;
+}
+
+button[tabs-tab-button-theme3] {
+    background: #333A41; 
+    color: #fff;
+}

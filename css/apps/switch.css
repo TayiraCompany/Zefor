@@ -1,0 +1,95 @@
+/* switch */
+label[switch-ios-label] {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+label[switch-ios-label] input[switch-ios-input] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+label[switch-ios-label] span[switch-ios-slider] {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+span[switch-ios-slider]:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input[switch-ios-input]:checked + span[switch-ios-slider] {
+    background: #68B030;
+}
+
+input[switch-ios-input]:checked + span[switch-ios-slider]:before {
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+span[switch-ios-slider]span[switch-ios-round] {
+    border-radius: 34px;
+}
+
+span[switch-ios-slider]span[switch-ios-round]:before {
+    border-radius: 50%;
+}
+
+/* dark */
+label[switch-ios-label] span[switch-ios-slider-dark] {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #222;
+    transition: .4s;
+    border-radius: 34px;
+}
+span[switch-ios-slider-dark]:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: var(--DarkColor);
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input[switch-ios-input]:checked + span[switch-ios-slider-dark] {
+    background: #333A41;
+}
+
+input[switch-ios-input]:checked + span[switch-ios-slider-dark]:before {
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+span[switch-ios-slider-dark]span[switch-ios-round] {
+    border-radius: 34px;
+}
+
+span[switch-ios-slider-dark]span[switch-ios-round]:before {
+    border-radius: 50%;
+}

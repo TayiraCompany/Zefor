@@ -1,0 +1,38 @@
+/* Alerts */
+article[alert]{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 60px;
+    border-radius: 0.375rem;
+    --bs-alert-padding-x: 1rem;
+    --bs-alert-padding-y: 1rem;
+    --bs-alert-margin-bottom: 1rem;
+    font-size: 16px;
+    align-items: center;
+}/* BUFF */article[alert='primary']{
+    background-color: #031633;
+    color: #6ea8fe;
+    border: 2px solid #084298;
+}article[alert='sec']{
+    background-color: var(--trSecondaryColor);
+    border: 2px solid var(--dSecondaryColor);
+}article[alert='info']{
+    background-color: var(--trInfoColor);
+    border: 2px solid var(--trInfoColor);
+}article[alert='err']{
+    background-color: var(--trErrorColor);
+    border: 2px solid #dc354585;
+}article[alert='succ']{
+    background-color: var(--trSuccColor);
+    border: 2px solid var(--dSuccColor);
+}article[alert='warn']{
+    background-color: var(--trWarColor);
+    border: 2px solid var(--dWarColor);
+}article[alert='dark']{
+    background-color: var(--trDarkColor);
+    border: 2px solid var(--dDarkColor);
+}article[alert='light']{
+    background-color: var(--trLightColor);
+    border: 2px solid var(--dLightColor);
+}

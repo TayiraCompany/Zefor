@@ -1,0 +1,43 @@
+
+/* GroupButtons */
+div[group-btn-div] {
+    border-radius: 6px;
+    border: 2px solid #111;
+    width: auto;
+    height: auto;
+    padding: 7px;
+    margin: 0;
+    display: flex;
+    background: #202020;
+}
+div[group-btn-div] button ,
+div[group-btn-div-rol] button {
+    margin-left: 5px;
+    gap: 20px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    background: transparent;
+    color: #fff;
+    &:hover{
+        background: #2C2C2D;
+    }
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    &:active{
+        background: #282829;
+    }
+}
+
+/* ROL */
+div[group-btn-div-rol] {
+    border-radius: 6px;
+    border: 2px solid #111;
+    width: 70px;
+    height: 500px;
+    padding: 7px;
+    background: #202020;
+}

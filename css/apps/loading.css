@@ -1,0 +1,22 @@
+/* Loading */
+div[loading-bar]{
+    height: 19px;
+    background: #2b2a2a;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+}/* BUFF */div[process-loadingbar]{
+    background: var(--PrimaryColor);
+    height: 10px;
+    width: 0px; 
+    border-radius: 15px;
+    margin-top: 5px;
+    transition: 300ms;
+    animation: LoadingBarKeyFrames 990ms infinite;
+    position: absolute;
+}
+
+@keyframes LoadingBarKeyFrames {
+    0% { width: 0%; }
+    100% { width: 98.3%;}
+}
